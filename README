@@ -14,3 +14,7 @@ python Bandit.py <algorithm> <reward_type> <range> <min> <step> <max> <engagemen
 
 Example execution:
 python Bandit.py Static Individual 100 0 0.2 0.9 content_engagements.csv user_network_connections.csv
+
+Engagement files included in the repo: content_engagements.csv, short_engagements.csv
+Network files included in the repo: user_network_connections.csv, new_users.csv, new_users2.csv
+
