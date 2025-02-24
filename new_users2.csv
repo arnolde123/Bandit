@@ -1,0 +1,9 @@
+user_id,follower_ids
+user_101,"user_102,user_103,user_104,user_105,user_106,user_107,user_108"
+user_102,"user_105,user_106,user_107"
+user_103,"user_104"
+user_104,"user_106,user_107,user_108"
+user_105,"user_101,user_108"
+user_106,"user_102,user_103,user_105"
+user_107,"user_101,user_106"
+user_108,"user_103"

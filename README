@@ -1,0 +1,16 @@
+How to run Bandit.py:
+Run the following command in the terminal:
+python Bandit.py <algorithm> <reward_type> <range> <min> <step> <max> <engagement_file> <network_file>
+
+• alg is one of ”Static” or ”Recency”.
+• reward is one of ”Individual” or ”Influence”
+• range is the number of rows used for parameter fitting.
+• min is the minimum parameter value for your grid search (e.g. 0)
+• step is the step size for your grid search (e.g. 0.2)
+• max is the maximum parameter value for your grid search (e.g. 0.9)
+• engagement file: A file containing data for the users and their engagement scores for each content
+(row).
+• network file: A file representing the network topology (connections between users).
+
+Example execution:
+python Bandit.py Static Individual 100 0 0.2 0.9 content_engagements.csv user_network_connections.csv
